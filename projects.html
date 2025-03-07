@@ -1,101 +1,143 @@
+
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>projects</title>
+    <title>Spider-Man Projects</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" 
+          integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
+<body class="body-project">
 
-    <h1>Spider-Man Movies</h1>
+    <header>
+        <h1>Spider-Man Projects</h1>
+        <nav aria-label="Main Navigation">
+            <ul id="nav-links">
+                <li class="nav-link"><a href="index.html">Home</a></li>
+                <li class="nav-link"><a href="projects.html">Projects</a></li>
+                <li class="nav-link"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <section class="movies-grid">
-        <div class="movie">
-            <img src="https://i.blogs.es/9769d8/spider-man-ppal/1024_2000.jpg" 
-            alt="Spider-Man 1"
-            height="350px"
-            width="350px">
-            <figcaption>Spider-Man (2022)</figcaption>
-            <h2>Spider-Man (2002)</h2>
-        </div>
+    <main class="main-project">
+        <section aria-labelledby="movies-heading-1">
+            <h2 id="movies-heading-1">Live-Action Spider-Man Movies</h2>
+            <div class="movies-grid">
+                <article class="movie">
+                    <figure>
+                        <img src="https://i.blogs.es/9769d8/spider-man-ppal/1024_2000.jpg" alt="Spider-Man 1" width="350" height="350">
+                        <figcaption>Spider-Man (2002)</figcaption>
+                    </figure>
+                    <a href="https://es.wikipedia.org/wiki/Spider-Man_(pel%C3%ADcula)">Spider-Man</a>
+                </article>
 
-        <div class="movie">
-            <img src="https://i.blogs.es/9da463/spiderman-2-cartel/1366_2000.jpg" 
-            alt="Spider-Man 2"
-            height="350px"
-            width="350px">
-            <h2>Spider-Man 2 (2004)</h2>
-        </div>
+                <article class="movie">
+                    <figure>
+                        <img src="https://i.blogs.es/9da463/spiderman-2-cartel/1366_2000.jpg" alt="Spider-Man 2" width="350" height="350">
+                        <figcaption>Spider-Man 2 (2004)</figcaption>
+                    </figure>
+                    <a href="https://es.wikipedia.org/wiki/Spider-Man_(pel%C3%ADcula)">Spider-Man 2</a>
+                </article>
 
-        <div class="movie">
-            <img src="https://i.blogs.es/9da86d/19134/1366_2000.jpg" 
-            alt="Spider-Man 3"
-            height="350px"
-            width="350px">
-            <h2>Spider-Man 3 (2007)</h2>
-        </div>
-
-        <div class="movie">
-            <img src="https://i.blogs.es/7003a0/amazing_spiderman_ver4_xlg_650/1366_2000.jpg" 
-            alt="The Amazing Spider-Man"
-            height="350px"
-            width="350px">
-            <h2>The Amazing Spider-Man (2012)</h2>
-        </div>
-
-        <div class="movie">
-            <img src="https://i.blogs.es/0303bf/poster-the-amazing-spiderman-2/1366_2000.jpg" 
-            alt="The Amazing Spider-Man 2"
-            height="350px"
-            width="350px">
-            <h2>The Amazing Spider-Man 2 (2014)</h2>
-        </div>
+                <article class="movie">
+                    <figure>
+                        <img src="https://i.blogs.es/9da86d/19134/1366_2000.jpg" alt="Spider-Man 3" width="350" height="350">
+                        <figcaption>Spider-Man 3 (2007)</figcaption>
+                    </figure>
+                    <a href="https://es.wikipedia.org/wiki/Spider-Man_(pel%C3%ADcula)">Spider-Man 3</a>
+                </article>
+            </div>
         </section>
-        <section class="movies-grid-2">
-        <div class="movie">
-            <img src="https://i.blogs.es/804d58/imagen-spiderman-homecoming/1366_2000.jpg" 
-            alt="Spider-Man Homecoming"
-            height="350px"
-            width="350px">
-            <h2>Spider-Man: Homecoming (2017)</h2>
-        </div>
 
-        <div class="movie">
-            <img src="https://i.blogs.es/3484a7/spiderverse4/1366_2000.jpg" 
-            alt="Spider-Verse"
-            height="350px"
-            width="350px">
-            <h2>Spider-Man: Into the Spider-Verse (2018)</h2>
-        </div>
+        <section aria-labelledby="movies-heading-2">
+            <h2 id="movies-heading-2">More Spider-Man Movies</h2>
+            <div class="movies-grid-2">
+                <article class="movie">
+                    <figure>
+                        <img src="https://i.blogs.es/7003a0/amazing_spiderman_ver4_xlg_650/1366_2000.jpg" alt="The Amazing Spider-Man" width="350" height="350">
+                        <figcaption>The Amazing Spider-Man (2012)</figcaption>
+                    </figure>
+                    <a href="https://es.wikipedia.org/wiki/Spider-Man_(pel%C3%ADcula)">The Amazing Spider-Man</a>
+                </article>
 
-        <div class="movie">
-            <img src="https://i.blogs.es/778bd7/screen-shot-2019-06-27-at-21.20.59/1366_2000.png" 
-            alt="Spider-Man Far From Home"
-            height="350px"
-            width="350px">
-            <h2>Spider-Man: Far From Home (2019)</h2>
-        </div>
+                <article class="movie">
+                    <figure>
+                        <img src="https://i.blogs.es/0303bf/poster-the-amazing-spiderman-2/1366_2000.jpg" alt="The Amazing Spider-Man 2" width="350" height="350">
+                        <figcaption>The Amazing Spider-Man 2 (2014)</figcaption>
+                    </figure>
+                    <a href="https://es.wikipedia.org/wiki/Spider-Man_(pel%C3%ADcula)">The Amazing Spider-Man 2</a>
+                </article>
 
-        <div class="movie">
-            <img src="https://i.blogs.es/5d3e7b/spider-man-no-way-home-new-poster-green-goblin-social-featured/1366_2000.jpg"
-             alt="Spider-Man No Way Home"
-             height="350px"
-             width="350px">
-            <h2>Spider-Man: No Way Home (2021)</h2>
-        </div>
+                <article class="movie">
+                    <figure>
+                        <img src="https://i.blogs.es/804d58/imagen-spiderman-homecoming/1366_2000.jpg" alt="Spider-Man Homecoming" width="350" height="350">
+                        <figcaption>Spider-Man: Homecoming (2017)</figcaption>
+                    </figure>
+                    <a href="https://es.wikipedia.org/wiki/Spider-Man_(pel%C3%ADcula)">Spider-Man: Homecoming</a>
+                </article>
+            </div>
+        </section>
+    </main>
 
-        <div class="movie">
-            <img src="data:image/jpeg;base64,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"
-            alt="Across the Spider-Verse"
-            height="350px"
-            width="350px">
-            <h2>Spider-Man: Across the Spider-Verse (2023)</h2>
-        </div>
-    </section>
+    <footer>
+        <nav aria-label="Footer Social Links">
+            <ul class="contact-class">
+                <li class="contact-link">
+                    <a href="https://linkedin.com" aria-label="LinkedIn"> <!-- font awesome-->
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="contact-link">
+                    <a href="https://github.com" aria-label="GitHub">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
 
 </body>
-
 </html>
+
+<!-- <div class="movie">
+    <img src="https://i.blogs.es/3484a7/spiderverse4/1366_2000.jpg" 
+    alt="Spider-Verse"
+    height="350px"
+    width="350px">
+    <a href="https://es.wikipedia.org/wiki/Spider-Man_(pel%C3%ADcula)">Spider-Man: Into the Spider-Verse</a>
+    <h2>Spider-Man: Into the Spider-Verse (2018)</h2>
+</div>
+
+<div class="movie">
+    <img src="https://i.blogs.es/778bd7/screen-shot-2019-06-27-at-21.20.59/1366_2000.png" 
+    alt="Spider-Man Far From Home"
+    height="350px"
+    width="350px">
+ 
+    <h2>Spider-Man: Far From Home (2019)</h2>
+</div>
+
+<div class="movie">
+    <img src="https://i.blogs.es/5d3e7b/spider-man-no-way-home-new-poster-green-goblin-social-featured/1366_2000.jpg"
+    alt="Spider-Man No Way Home"
+    height="350px"
+    width="350px">
+    <a href="https://es.wikipedia.org/wiki/Spider-Man_(pel%C3%ADcula)">Spider-Man: No Way Home</a>
+    <h2>Spider-Man: No Way Home (2021)</h2>
+</div>
+
+<div class="movie">
+    <img src="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/Z54HSXRDEVABBIBF4R7OVACLS4.jpg"
+    alt="Across the Spider-Verse"
+    height="350px"
+    width="350px">
+    <a href="https://es.wikipedia.org/wiki/Spider-Man_(pel%C3%ADcula)">Spider-Man: Across the Spider-Verse</a>
+    <h2>Spider-Man: Across the Spider-Verse (2023)</h2>
+</div>
+</section> -->

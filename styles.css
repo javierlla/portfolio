@@ -1,13 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /*CONTACT*/
 
+.body-contact{
+    display:flex ;
+    height: 100vh;
+    flex-direction: column;
+    background-color: #005bb5;
+}
+.main-contact{
+    display: flex;
+    flex-grow: 1;
+
+}
+#contact{
+    display: flex;
+    margin: 10px solid yellow;
+    height: 700px;
+    width: 600px;
+    flex-direction: column;
+}
+
+fieldset{
+    border: none;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 5px solid red;
+    margin: 20px;
+    align-items: center;
+    border-right: 100px;
+    width: 700px;
+   
+}
+
+button{
+    
+    font-size: 20px;
+    margin: 10px;
+    width: 100px;
+    height: 40px;
+    border-radius: 20%;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(148, 0, 20);
+}
+button:hover{
+    transition: 1s;
+    background-color: rgb(0, 148, 20);
+}
+input{
+    padding: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #d4d4d4;
+    border-radius: 5px;
+}
+legend{
+    color: black;
+    font-weight: bold;
+}
+/*
+
+
 #contact {
+
     max-width: 700px;
-    /*height: 700px;*/
-    margin: 100px auto;
+    height: 700px;
+   margin: 100px auto; 
     padding: 20px;
     background: rgb(119, 158, 170);
-    border-radius: 50px;
+    border-radius: 50px; 
 
 }
 
@@ -32,7 +104,7 @@ input, textarea {
     width: 100%;
     padding: 8px;
     margin-top: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid #d4d4d4;
     border-radius: 5px;
 }
 
@@ -49,44 +121,37 @@ button {
 
 button:hover {
     background: #005bb5;
-}
+}*/
 
 
-/*PROJECTS*/
+/*PROJECTS.HTML*/
 
-.movies-grid
-{
+.movies-grid, .movies-grid-2 {
     display: flex;
     justify-content: space-between;
-}
-.movies-grid-2
-{
-    display: flex;
-    justify-content: space-between;
+    max-width: 900px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+article.movie {
+    text-align: center;
 }
 
-body{
+
+
+
+
+
+
+
+
+
+
+
+/*INDEX.HTML*/
+
+
+
+.body{
     display: flex;
     height: 100vh;
     flex-direction: column;
@@ -124,7 +189,7 @@ nav{
 
 /*MAIN*/
 
-main{
+.main{
     display: flex;
     border-radius: 10%;
     border: 5px solid yellow;
@@ -141,17 +206,53 @@ main{
     width: 100%;
     margin: 20px;
     padding: 20px;
+    max-width: 900px; 
+    margin: 20px auto; 
+    /*flex-wrap: wrap; */ 
 }
 
 .user-info-image{
     border-radius: 100%;
     border: 2px solid yellow;
+    margin-right: 38px;
     overflow: hidden;
+    max-width: 500px; 
+    max-height: 500px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.user-info-text{
+.user-info-text h1{
+    color: rgb(112, 27, 27);
+    
+    padding-left: 50px;
+    display: flex;
+    border: 1px solid pink;
+    width: 200px;
+}
+.user-info-text p{
+    
     margin: 15px;
+    display: flex;
+    border: 1px solid pink;
+    max-width: 300px;
+    margin-right: 38px;
+    
 }
-@media screen {
+
+@media (max-width: 780px) {
+    #user-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border:2px solid red;
+        border-radius: 5%;
+        width: 100%;
+        margin: 20px;
+        padding: 20px;
+        transition: 3s;
+    }
     
     
 }
