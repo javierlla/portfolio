@@ -9,6 +9,7 @@
 .body-contact{
     display:flex ;
     height: 100vh;
+    justify-content: center;
     flex-direction: column;
     background-color: #005bb5;
 }
@@ -39,7 +40,6 @@ form{
     width: 700px;
    
 }
-
 button{
     
     font-size: 20px;
@@ -129,6 +129,7 @@ button:hover {
 .movies-grid, .movies-grid-2 {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 900px;
 }
 
